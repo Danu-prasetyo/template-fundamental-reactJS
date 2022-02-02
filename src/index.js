@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-// import component
+import Event from "./event";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Component />
+    <Event />
   </React.StrictMode>,
   document.getElementById("root")
 );
