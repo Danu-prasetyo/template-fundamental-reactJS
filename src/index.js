@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-// import component
+import Props from "./props";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Component />
+    <Props />
   </React.StrictMode>,
   document.getElementById("root")
 );
