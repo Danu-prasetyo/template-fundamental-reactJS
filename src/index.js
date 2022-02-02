@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-// import component
+import ConditionRenderin from "./conditionalRendering";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Component />
+    <ConditionRenderin />
   </React.StrictMode>,
   document.getElementById("root")
 );
